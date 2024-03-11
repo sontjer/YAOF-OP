@@ -30,11 +30,11 @@ openwrt_node_repo="https://github.com/nxhack/openwrt-node-packages.git"
 passwall_pkg_repo="https://github.com/xiaorouji/openwrt-passwall-packages"
 passwall_luci_repo="https://github.com/xiaorouji/openwrt-passwall"
 openwrt_third_repo="https://github.com/jjm2473/openwrt-third"
-dockerman_repo="https://github.com/lisaac/luci-app-dockerman"
+#dockerman_repo="https://github.com/lisaac/luci-app-dockerman"
 diskman_repo="https://github.com/lisaac/luci-app-diskman"
-docker_lib_repo="https://github.com/lisaac/luci-lib-docker"
-mosdns_repo="https://github.com/QiuSimons/openwrt-mos"
-ssrp_repo="https://github.com/fw876/helloworld"
+#docker_lib_repo="https://github.com/lisaac/luci-lib-docker"
+#mosdns_repo="https://github.com/QiuSimons/openwrt-mos"
+#ssrp_repo="https://github.com/fw876/helloworld"
 zxlhhyccc_repo="https://github.com/zxlhhyccc/bf-package-master"
 linkease_repo="https://github.com/linkease/openwrt-app-actions"
 linkease_pkg_repo="https://github.com/jjm2473/packages"
@@ -71,10 +71,10 @@ clone_repo $openwrt_node_repo master openwrt-node &
 clone_repo $passwall_pkg_repo main passwall_pkg &
 clone_repo $passwall_luci_repo main passwall_luci &
 clone_repo $openwrt_third_repo main openwrt-third &
-clone_repo $dockerman_repo master dockerman &
+#clone_repo $dockerman_repo master dockerman &
 clone_repo $diskman_repo master diskman &
-clone_repo $docker_lib_repo master docker_lib &
-clone_repo $mosdns_repo master mosdns &
+#clone_repo $docker_lib_repo master docker_lib &
+#clone_repo $mosdns_repo master mosdns &
 clone_repo $ssrp_repo main ssrp &
 clone_repo $zxlhhyccc_repo master zxlhhyccc &
 clone_repo $linkease_repo main linkease &
