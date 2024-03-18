@@ -386,6 +386,8 @@ wget -qO - https://github.com/Lienol/openwrt-package/pull/39.patch | patch -p1
 popd
 sed -i '/socat\.config/d' feeds/packages/net/socat/Makefile
 # natmap
+rm -rf ./feeds/packages/net/natmap
+rm -rf ./feeds/luci/applications/luci-app-natmap
 git clone --depth 1 --branch master --single-branch --no-checkout https://github.com/muink/luci-app-natmapt.git package/luci-app-natmapt
 pushd package/luci-app-natmapt
 umask 022
